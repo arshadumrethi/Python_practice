@@ -1,4 +1,6 @@
 num = input()
-for i in range(1, num+1):
+count = 0
+for i in range(1, num):
     if num % i == 0:
-        print i
+        count += i
+print count
