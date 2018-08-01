@@ -13,4 +13,4 @@ n = input("Enter number of chars: ")
 def gen(n):
     print "".join(random.sample(pool, n))
 
-gen(n) 
+gen(n)
