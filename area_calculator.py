@@ -1,6 +1,6 @@
-"""This program will prompt the user to select a shape,
-then calculate the area of that shape and then
-print the area of that shape to the user"""
+# This program will prompt the user to select a shape,
+# then calculate the area of that shape and then
+# print the area of that shape to the user
 
 print "***Calculator is starting***"
 
