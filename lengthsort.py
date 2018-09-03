@@ -1,11 +1,15 @@
+
+#Write a function that sorts an array to return strings organized by string length.
+
 x = ["Telescopes", "Glasses", "Eyes", "Monocles"]
 y = ["", "moderately", "brains", "pizza"]
 z = ["i", "oo", "ppp", "kkkk", "mmmmm", "bbbbbb"]
 
 def sort_by_length(arr):
     return sorted(arr, key=len)
-    # arr.sort(key= lambda x:len(x))
+    # arr.sort(key= lambda x:len(x)) #Alternative Solution.
 
+#Longer Solution:
 # def sort_by_length(a):
 #     n = len(a)
 #     for i in range(n):
