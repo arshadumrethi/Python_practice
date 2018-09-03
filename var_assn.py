@@ -1,9 +1,5 @@
-a = "code"
-b = "wa.rs"
-name = a + b
 
-print name
-
+#Function that converts DNA code to RNA by replacing T with U
 def DNAtoRNA(dna):
     result = ""
     for i in dna:
